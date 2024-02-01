@@ -1,4 +1,4 @@
-p{
+div{
     color: green;
     text-align: center;
 }
@@ -25,4 +25,17 @@ a{
 }
 .last a{
     text-decoration: none;
+}
+h1 + p{
+    font-size: 20px;
+}
+h3 + p > code{
+    color: red;
+}
+p > code{
+    color: pink;
+}
+code{
+    white-space: pre;
+font-family: Monospaced, monospace;
 }

@@ -1,0 +1,28 @@
+p{
+    color: green;
+    text-align: center;
+}
+.change{
+    color: red;
+}
+#two{
+    color: pink;
+}
+a{
+    color: blue;
+}
+ li > a{
+    color: pink;
+}
+ .main{
+     color: green;
+ }
+ ul li ul li{
+     list-style-type: none;
+ }
+.last li{
+    list-style-type: square;
+}
+.last a{
+    text-decoration: none;
+}

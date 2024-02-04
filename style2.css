@@ -1,0 +1,39 @@
+header{
+    display: flex;
+    justify-content: center;
+    margin: 100px 200px;
+}
+img{
+    height: 650px;
+}
+form{
+    padding: 10px;
+    background: #f0d9d9;
+    width: 30%;
+}
+body{
+    background: rgb(235,187,208);
+    background: radial-gradient(circle, rgba(235,187,208,1) 17%, rgba(203,191,150,1) 100%);
+}
+h1{
+    text-align: center;
+    font-family: Georgia, serif;
+}
+input{
+    background: rgba(189, 203, 128, 0.3);
+    border: 1px solid black;
+    padding: 5px;
+}
+input[type="submit"]{
+   border-radius: 30px;
+    padding: 20px 30px;
+font-family: Georgia, serif;
+    font-weight: bold;
+    background: #cc7d79;
+    margin: 30px 100px;
+    box-shadow: 0 0 2px 2px #805a5e;
+}
+input[type="submit"]:hover{
+    background-color: #41543c;
+    transition: 0.7s;
+}

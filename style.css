@@ -39,3 +39,63 @@ code{
     white-space: pre;
 font-family: Monospaced, monospace;
 }
+table{
+  border-collapse: collapse;
+}
+td{
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px 20px;
+    width: 20%;
+    height: 40px;
+}
+tr td:first-child{
+    background-color: #be4f4c;
+    color: white;
+}
+tr:nth-child(1) td:nth-child(1){
+    background-color: #f0d9d9;
+    color: black;
+    font-size: small;
+    font-weight: bold;
+}
+tr:nth-child(1) td:nth-child(2){
+    background-color: #e3b7b6;
+    color: black;
+    font-weight: bold;
+}
+tr:nth-child(1) td:nth-child(3){
+    background-color: #d79493;
+    color: white;
+    font-weight: bold;
+}
+tr:nth-child(1) td:nth-child(4){
+    background-color: #933634;
+    color: white;
+    font-weight: bold;
+}
+tr:nth-child(1) td:nth-child(5){
+    background-color: #622423;
+    color: white;
+    font-weight: bold;
+}
+tr:nth-child(2){
+    background-color: #e3b7b6;
+    color: black;
+}
+tr:nth-child(3){
+    background-color: #f0d9d9;
+    color: black;
+}
+tr:nth-child(4){
+    background-color: #e3b7b6;
+    color: black;
+}
+tr:nth-child(5){
+    background-color: #f0d9d9;
+    color: black;
+}
+tr:nth-child(6){
+    background-color: #e3b7b6;
+    color: black;
+}
